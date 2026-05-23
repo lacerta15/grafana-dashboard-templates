@@ -1,0 +1,12 @@
+{
+  "title": "Node Overview",
+  "uid": "node-overview-001",
+  "panels": [
+    {"title":"CPU Usage","type":"gauge","gridPos":{"x":0,"y":0,"w":6,"h":4}},
+    {"title":"Memory Usage","type":"gauge","gridPos":{"x":6,"y":0,"w":6,"h":4}},
+    {"title":"Disk I/O","type":"graph","gridPos":{"x":0,"y":4,"w":12,"h":6}},
+    {"title":"Network Traffic","type":"graph","gridPos":{"x":0,"y":10,"w":12,"h":6}}
+  ],
+  "time":{"from":"now-1h","to":"now"},
+  "refresh":"30s"
+}
